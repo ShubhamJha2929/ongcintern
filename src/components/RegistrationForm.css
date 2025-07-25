@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #640000, #bf0000);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  max-width: 500px;
+  width: 95%;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.header img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.glass-form {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 30px;
+  color: white;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+input[type="file"] {
+  padding: 5px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.submit-button {
+  margin-top: 10px;
+  background-color: #ffbf00;
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #e0a800;
+}
